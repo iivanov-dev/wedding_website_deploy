@@ -177,7 +177,7 @@ body {
 
 .title-img--when {
   transform: translate(86px, -7px);
-  margin-top: 30px;
+  margin-top: 23px;
 }
 
 .title-img--where {
@@ -204,7 +204,7 @@ body {
 .polaroid-start::before {
   content: "";
   position: absolute;
-  top: -20px;
+  top: -94px;
   left: 50%;
   transform: translateX(-50%);
   width: 100vw;
@@ -317,12 +317,12 @@ body {
 .polaroid-compact {
   margin-top: 20px;
   position: absolute;
-  top: -90px;
-  right: 24px;
+  top: -108px;
+  right: 11px;
   transform: translateX(30%) rotate(7.73deg);
   max-width: none;
-  width: clamp(200px, 52vw, 220px);
-  height: 100%;
+  width: 222px;
+  height: 242px;
   z-index: 1;
   background-color: transparent;
   background-image: url("images/bg-images/polaroid.svg");
@@ -350,11 +350,12 @@ body {
   color: #ffa600;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: clamp(12px, 3vw, 16px);
+  font-size: clamp(14px, 3vw, 16px);
   text-decoration: underline;
   text-transform: none;
   border-bottom: none;
   text-align: center;
+  transform: translate(-10px, -2px);
 }
 
 .event-timeline {
@@ -489,7 +490,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5px;
+  padding-bottom: 13px;
 }
 
 .dress-code {
@@ -535,7 +536,7 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  transform: translate(-50px, -93px);
+  transform: translate(-67px, -90px);
 }
 
 .dress-code-desc {
@@ -571,10 +572,10 @@ body {
 }
 
 .palette-blobs--men img {
-  transform: translate(-21px, -12px) scale(0.7);
+  transform: translate(-45px, -12px) scale(0.65);
   width: 120px;
   transition: transform 0.3s ease;
-  top: 0px;
+  top: 7px;
   left: -2px;
   position: relative;
 }
@@ -936,19 +937,19 @@ body {
 
 @media (min-width: 400px) {
   .palette-blobs--men img {
-    top: -2px;
+    top: 4px;
   }
 }
 
 @media (min-width: 430px) {
   .palette-blobs--men img {
-    top: -6px;
+    top: 0px;
   }
 }
 
 @media (min-width: 465px) {
   .palette-blobs--men img {
-    top: -9px;
+    top: -4px;
   }
 }
 
@@ -1152,13 +1153,13 @@ body {
   }
 
   .palette-blobs--men img {
-    left: 29px;
-    top: -24px;
+    left: 24px;
+    top: -17px;
   }
 
   .palette-blobs--men .white {
     left: 29px;
-    top: -24px;
+    top: -17px;
   }
 
   .rsvp-title {
