@@ -647,7 +647,7 @@ body {
 }
 
 .rsvp-form h3:last-of-type {
-  margin-top: -28px;
+  margin-top: -36px;
   margin-bottom: -2px;
 }
 
@@ -843,6 +843,10 @@ body {
   align-items: flex-start;
   width: 100%;
   padding-left: clamp(12px, 3vw, 20px);
+}
+
+.wrapper-radio-group2 {
+	transform: translate(0px, -10px);
 }
 
 .rsvp-title-main {
