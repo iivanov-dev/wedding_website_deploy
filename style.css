@@ -974,18 +974,33 @@ body {
   .palette-blobs--men img {
     top: -6px;
   }
+  .polaroid-compact {
+    margin-top: 10px;
+	width: 242px;
+    height: 262px;
+  }
 }
 
 @media (min-width: 580px) {
   .contact-valeria {
     transform: translate(60px, -29px) scale(2);
   }
+      .polaroid-compact {
+        margin-top: -10px;
+        width: 262px;
+        height: 282px;
+    }
 }
 
 @media (min-width: 660px) {
   .contact-valeria {
     transform: translate(0px, -29px) scale(2);
   }
+    .polaroid-compact {
+        margin-top: -20px;
+        width: 282px;
+        height: 302px;
+    }  
 }
 
 @media (min-width: 800px) {
@@ -1076,18 +1091,28 @@ body {
     transform: none;
   }
 
-  .polaroid-compact {
-    position: relative;
-    top: 0;
-    right: 0;
-    transform: rotate(5deg);
-    width: 420px;
-    padding: 24px 24px 70px 24px;
-  }
+.polaroid-compact {
+        position: relative;
+        top: 0;
+        right: -70px;
+        transform: rotate(5deg);
+        margin-top: -170px;
+        width: 332px;
+        height: 562px;
+    }
 
   .polaroid-compact.right-tilt {
     transform: rotate(4deg);
   }
+
+  .polaroid-compact img
+ {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 80px;
+    transform: translate(0px, 100px);
+}
 
   .polaroid-compact img {
     height: 280px;
