@@ -1036,7 +1036,7 @@ body {
   }
 
   .title-img--time {
-    transform: translate(-124px, 54px) scale(0.8);
+    transform: translate(-124px, 24px) scale(0.8);
   }
 
   .title-img--anketa {
@@ -1388,7 +1388,7 @@ body {
   }
 
   .polaroid-compact .map-link {
-  font-size: clamp(12px, 3vw, 28px);
+  font-size: 24px;
   transform: translate(0px, 26px);
 }
 
